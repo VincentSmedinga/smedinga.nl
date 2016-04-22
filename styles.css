@@ -1,0 +1,48 @@
+/* http://colorpalettes.net/color-palette-2227/ */
+
+:root {
+	background-color: #eaebeb;
+	color: #095470;
+	font-size: calc(1em + 1vmax);
+	line-height: 1.5;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+	padding: 4vmax;
+	transition: padding 256ms linear;
+}
+
+@media (orientation: landscape) {
+	body {
+		padding-left: 16vmax;
+		padding-right: 16vmax;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	margin-bottom: 4vh;
+}
+
+p {
+	margin-top: 0;
+}
+
+a {
+	color: #1aa2d9;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: underline;
+}
+
+.secondary {
+	font-size: .75rem;
+}
