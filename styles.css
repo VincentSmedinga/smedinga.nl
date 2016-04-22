@@ -72,7 +72,7 @@ span.secondary {
 /* Definition lists */
 
 di {
-	margin-bottom: 1vh;
+	display: block; /* Add block layout to custom element */
 }
 
 dt,
@@ -89,8 +89,9 @@ dt {
 .definition-table {}
 
 .definition-table di {
-	clear: both;
 	display: flex;
+	margin-bottom: 1vh;
+	clear: both;
 }
 
 .definition-table dt,
@@ -99,10 +100,14 @@ dt {
 }
 
 .definition-table dt {
-	flex: 2;
+	flex: 2; /* 40% or 17% */
 	padding-right: 2em;
 }
 
 .definition-table dd {
-	flex: 3;
+	flex: 3; /* 60% */
+}
+
+[data-definition-term-width="narrow"] dd {
+	flex: 10; /* 83% */
 }
