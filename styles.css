@@ -1,5 +1,12 @@
 /* http://colorpalettes.net/color-palette-2227/ */
 
+/* Scaffolding */
+
+* {
+	box-sizing: border-box;
+	margin-bottom: 4vh;
+}
+
 :root {
 	background-color: #eaebeb;
 	color: #095470;
@@ -20,9 +27,19 @@ body {
 	}
 }
 
-* {
-	box-sizing: border-box;
-	margin-bottom: 4vh;
+/* Typography */
+
+h1,
+h2 {
+	color: #054a4a;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.25em;
 }
 
 p {
