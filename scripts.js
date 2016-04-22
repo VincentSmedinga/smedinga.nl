@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	html.classList.add('js');
 
 	// Accordionize the sections
-	var sections = document.querySelectorAll('section');
+	var sections = document.querySelectorAll('section, aside');
 	Array.prototype.forEach.call(sections, function(section, i) {
 		// Collapse all but the first section
 		section
