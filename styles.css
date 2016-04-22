@@ -63,3 +63,46 @@ a:focus {
 .secondary {
 	font-size: .75rem;
 }
+
+span.secondary {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+/* Definition lists */
+
+di {
+	margin-bottom: 1vh;
+}
+
+dt,
+dd {
+	margin: 0;
+}
+
+dt {
+	font-style: italic;
+}
+
+.definition-list {}
+
+.definition-table {}
+
+.definition-table di {
+	clear: both;
+	display: flex;
+}
+
+.definition-table dt,
+.definition-table dd {
+	flex: auto;
+}
+
+.definition-table dt {
+	flex: 2;
+	padding-right: 2em;
+}
+
+.definition-table dd {
+	flex: 3;
+}
